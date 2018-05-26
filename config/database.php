@@ -42,7 +42,7 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             //'host' => env('DB_HOST', '127.0.0.1'),
-            'host' => env('DB_HOST', 'mysql.hostinger.co.id'),
+            'host' => env('DB_HOST', 'sql149.main-hosting.eu'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'u765641675_kopi'),
             'username' => env('DB_USERNAME', 'u765641675_kopi'),
