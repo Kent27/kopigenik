@@ -16,18 +16,18 @@
     <title>{{ config('app.name', 'Laravel') }} | @yield('title')</title>
 
     <!-- Styles --> 
-    <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{asset('css/kopigenik.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/awesomplete.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/custom.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/bootstrap.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{secure_asset('css/kopigenik.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/awesomplete.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/custom.css')}}">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.16/fh-3.1.3/r-2.2.0/datatables.min.css">
 
 
     <!--jquery script-->
-    <script src="{{asset('js/app.js')}}"></script>    
-    <script src="{{asset('js/awesomplete.min.js')}}"></script>
+    <script src="{{secure_asset('js/app.js')}}"></script>    
+    <script src="{{secure_asset('js/awesomplete.min.js')}}"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.16/fh-3.1.3/r-2.2.0/datatables.min.js"></script>
 
 
@@ -45,7 +45,7 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}"><img class="img-responsive" src="{{asset('asset/kopigenikbanner.png')}}"></a>
+                    <a class="navbar-brand" href="{{ secure_url('/') }}"><img class="img-responsive" src="{{secure_asset('asset/kopigenikbanner.png')}}"></a>
 
                 </div>
                 <div class="collapse navbar-collapse navbarKu" id="myNavbar">
@@ -125,18 +125,18 @@
                     <ul>
                         <li>
                             <a href="https://facebook.com/kopigenik" target="__blank">
-                                <img class="icon-social-media" src="{{asset('asset/icon-facebook.svg')}}">
+                                <img class="icon-social-media" src="{{secure_asset('asset/icon-facebook.svg')}}">
                                 <span>Kopigenik</span>
                             </a>
                         </li>
                         <li>
                             <a href="https://instagram.com/kopigenik" target="__blank">
-                                <img class="icon-social-media" src="{{asset('asset/icon-instagram.svg')}}">
+                                <img class="icon-social-media" src="{{secure_asset('asset/icon-instagram.svg')}}">
                                 <span>@kopigenik</span>
                             </a>
                         </li>
                         <li>                        
-                            <img class="icon-social-media" src="{{asset('asset/icon-line.jpg')}}">
+                            <img class="icon-social-media" src="{{secure_asset('asset/icon-line.jpg')}}">
                             <span style="color: #fff;">@kopigenik</span>                            
                         </li>
                         <li style="margin-left: 50px;">
@@ -152,8 +152,8 @@
 
     <!-- Scripts -->
 	<!-- <script src="{{asset('js/bootstrap.js')}}"></script> -->
-	<script src="{{asset('js/kopigenik.js')}}"></script>
-	<script src="{{asset('js/velocity.js')}}"></script>
+	<script src="{{secure_asset('js/kopigenik.js')}}"></script>
+	<script src="{{secure_asset('js/velocity.js')}}"></script>
     
     <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
     <script type="text/javascript">

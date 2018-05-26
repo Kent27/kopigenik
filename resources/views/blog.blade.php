@@ -13,7 +13,7 @@
 					<a href="/blog/{{$post->id}}" class="link-text">
 						<div class="col-sm-4">
 							<div class="shadow">
-								<img class="img-responsive center-block slideanim" src="{{asset('asset/original/rsz_blog_espresso.jpg')}}" alt="espresso extraction">				
+								<img class="img-responsive center-block slideanim" src="{{secure_asset('asset/original/rsz_blog_espresso.jpg')}}" alt="espresso extraction">				
 								<div style="padding: 20px;">					
 									<p style="color: grey;">{{Carbon\Carbon::parse($post->created_at)->format('j F Y')}}</p>
 									<p style="font-size: 24px; color: #000;">{{$post->title}}</p>
